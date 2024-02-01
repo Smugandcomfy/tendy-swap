@@ -1,5 +1,5 @@
-# sneed_sns_dapp
-Sneed SNS dApp
+# TENDYx Deepfryer and swap dapp
+based on the oss code from tne Sneed SNS swap dapp. special thanks to sneed and tendy teams, anvil and others for making this possible. this dapp was created for the sonic.ooo LBP of Tendy token. TENDYx will be redeemable on a 1:10 ration for icrc1 tendys via this dapp. TENDYx tokes sent to the canister will be burned. 
 
   ```motoko    
 To install and run tests locally:
