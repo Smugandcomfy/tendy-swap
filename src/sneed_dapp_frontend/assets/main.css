@@ -1,7 +1,9 @@
 body {
-    font-family: "Fira Code", monospace;
+    font-family: "Courier New", monospace; /* Changed to a serif font */
+    font-weight: bold; /* Make the text bold */
     background-color: #FFD;
     color: #fff;
+    text-align: center; /* Centering content */
 }
 
 .active {
@@ -12,8 +14,12 @@ body {
   color: #815;
 }
 
+/* If you want to keep code blocks in monospace font for readability, 
+   you can skip changing this or use a serifed monospace font that supports bold */
 @supports (font-variation-settings: normal) {
     code {
-      font-family: "Fira Code VF", monospace;
+      font-family: "Courier New", monospace; /* Adjust as needed for consistency */
+      font-weight: bold; /* Ensuring code blocks are also bold */
+      /* If you want to keep a monospace font for code, replace "Georgia" with a monospace font like "Courier New" */
     }
-  }
+}
