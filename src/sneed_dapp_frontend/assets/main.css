@@ -1,15 +1,15 @@
 body {
     font-family: "Fira Code", monospace;
-    background-color: #815;
+    background-color: #FFD;
     color: #fff;
 }
 
 .active {
-    color: #fff;
+    color: #000;
 }
 
 .inactive {
-  color: #fff;
+  color: #815;
 }
 
 @supports (font-variation-settings: normal) {
