@@ -9,7 +9,7 @@ body {
 }
 
 .inactive {
-  color: #888;
+  color: #fff;
 }
 
 @supports (font-variation-settings: normal) {
