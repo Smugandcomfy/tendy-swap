@@ -1,4 +1,4 @@
-import { sneed_dapp_backend } from "../../sneed_dapp_backend/main.mo";
+//import { sneed_dapp_backend } from "../../sneed_dapp_backend";
 import { Principal } from "@dfinity/principal";
 
 var d8 = Number(100000000);
