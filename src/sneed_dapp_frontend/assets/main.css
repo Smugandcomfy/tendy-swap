@@ -1,9 +1,9 @@
 body {
-    font-family: "Courier New", monospace; /* Changed to a serif font */
-    font-weight: bold; /* Make the text bold */
+    font-family: "Courier New", monospace; /* Remains a monospace font */
+    font-weight: bold; /* Keeps text bold */
     background-color: #FFD;
     color: #fff;
-    text-align: center; /* Centering content */
+    text-align: center; /* Content is centered */
 }
 
 .active {
@@ -14,12 +14,20 @@ body {
   color: #815;
 }
 
-/* If you want to keep code blocks in monospace font for readability, 
-   you can skip changing this or use a serifed monospace font that supports bold */
 @supports (font-variation-settings: normal) {
     code {
-      font-family: "Courier New", monospace; /* Adjust as needed for consistency */
-      font-weight: bold; /* Ensuring code blocks are also bold */
-      /* If you want to keep a monospace font for code, replace "Georgia" with a monospace font like "Courier New" */
+      font-family: "Courier New", monospace; /* Consistent with body for monospace */
+      font-weight: bold; /* Code blocks are also bold */
     }
+}
+
+/* Adding nice borders to text sections */
+div, section, article, p {
+    border: 2px solid #888; /* A darker border for contrast with the light background */
+    padding: 15px; /* Provides spacing inside the border */
+    margin: 10px 0; /* Adds vertical spacing between sections, no horizontal spacing */
+    border-radius: 5px; /* Slightly rounded corners for a modern look */
+    background-color: #FFFEE; /* Optional: a lighter background inside sections for contrast */
+    color: #333; /* Darker text color for readability on the lighter background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for depth */
 }
